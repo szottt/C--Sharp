@@ -21,11 +21,15 @@ namespace Rextester
             
             int b = (int)o; //unbox
             
+            System.Type t = b.GetType();
+            
             //int c = ((int)o).MaxValue;
             
             Console.WriteLine(b);
+            Console.WriteLine(t);
             Console.WriteLine(((int)o).ToString());
            
+            
             
         }
     }
