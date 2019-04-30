@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Rextester
+{
+    public class Program
+    {
+        
+        public static void Main(string[] args)
+        {
+                       
+           int a =10;
+           object o = (object)a; //box
+            
+            Console.WriteLine(o.GetType().ToString());
+            
+            int b = (int)o; //unbox
+            
+            Console.WriteLine(b);
+            
+            
+            
+        }
+    }
+}
