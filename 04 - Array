@@ -1,0 +1,53 @@
+//Rextester.Program.Main is the entry point for your code. Don't change it.
+//Compiler version 4.0.30319.17929 for Microsoft (R) .NET Framework 4.5
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+using System.Collections;
+
+namespace Rextester
+{
+    public class Program
+    {
+        
+        public static void Main(string[] args)
+        {
+          
+          //Single Dimensional  
+          int[] a1 = new int[3];
+          a1[0] = 10;
+          a1[1] = 20;
+          a1[2] = 30;
+          
+          int[] a2 = new int[]{10,20,30};  
+          
+            //bool[] a2 = new bool[]{true, false, true};  
+         
+          string[] a3 = {"one","two","three"};  
+          
+           //Console.WriteLine(a3.Length); //Mostra o tamanho
+            
+           
+            //MultiDimensional Array
+          int[,] ma1 = new int[3,3];
+          ma1[0, 0] = 1;
+            
+            Console.WriteLine(a2);
+            
+         //Array list
+         
+           ArrayList al = new Arraylist();
+            al.add(10);
+            al.add("OK");
+            al.add(true);
+            
+            //a[0]
+            
+            
+            
+            
+        }
+    }
+}
